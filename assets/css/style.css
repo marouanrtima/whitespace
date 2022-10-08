@@ -24,6 +24,8 @@ body{
 
 header{
     background-color: var(--primary);
+    width: 1920px;
+    height: auto;
 }
 
 header .logo{
@@ -79,15 +81,31 @@ header .buttons{
 
 
 header .title-container{
-    margin-top: 140px;
+    padding: 140px 0;
     color: #FFFFFF;
     display: flex;
+
+}
+
+header .title-container .title{
+    width: 656px;
+    height: auto;
+    flex: 5;
 }
 
 header .title-container .title-bttn{
     margin: initial;
 }
 
+
+header .title-container .aside-image {
+    width: 824px;
+    height: auto;
+    flex: 7;
+    display: flex;
+    justify-content: flex-end;
+    
+}
 
 
 
