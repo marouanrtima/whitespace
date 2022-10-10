@@ -53,6 +53,7 @@ header .buttons{
     color: #FFFFFF;
    padding: 10px;
    margin-left: 20px;
+   cursor: pointer;
 }
 
 .container .buttons .login{
@@ -68,6 +69,7 @@ header .buttons{
     line-height: 24px;
     background-color: #4F9CF9;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 
@@ -174,3 +176,90 @@ section .together-flex .together .try-now{
     margin-top: 12px;
     padding: 10px 40px;
 } 
+.big-container{
+    background-color: var(--primary);
+    color: #FFFFFF;
+}
+.big-container .section{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+.big-container .section h1{
+    font-size: 3em;
+}
+.big-container .section p{
+ font-size: .8em;
+ line-height: 1.5em;
+}
+.big-container img{
+    display: flex;
+    justify-content: flex-end;
+    flex: 6;
+    width: 686px;
+    height: auto;
+}
+.big-container .go{
+    margin: initial;
+    padding: 18px 40px;
+}
+
+.custom-container{
+    background-color: #FFFFFF;
+    margin: 140px 0;
+}
+.custom-container .custom-parent{
+    display: flex;
+    align-items: center;
+    gap: 98px;
+}
+.custom-container .custom-parent img{
+    width: 600px;
+    height: auto;
+    flex: 6;
+    display: flex;
+    justify-content: flex-start;
+}
+.custom-container .custom-parent .title-blog{
+    flex: 6;
+} 
+.custom-container .custom-parent .title-blog h2{
+    max-width: 77%;
+    font-size: 3em;
+}
+.custom-container .custom-parent .title-blog p{
+  font-size: .86em;  
+}
+.custom-container .custom-parent .title-blog .blogin{
+    margin: initial;
+    padding: 18px 40px;
+}
+.plan-container{
+    background-color: #f32323;
+    margin-top: 140px;
+}
+/* .plan-container .title-plan{
+    width: 400px;
+    margin: 0 auto;
+} */
+.plan-container .title-plan h3{
+    font-size: 3em;
+    text-align: center;
+}
+.plan-container .title-plan p{
+    text-align: center;
+    font-size: .9em;
+}
+.plan-container span{
+    display: block;
+    text-align: center;
+}
+
+.plan-container .paiment .free{
+    padding: 40px 44px;
+    border: 1px solid #FFE492;
+    max-width: 470px;
+    height: 600px;
+}
+
