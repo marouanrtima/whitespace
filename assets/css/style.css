@@ -2,14 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 
 :root {
-    --primary: #043873;
-   
+    --primary: #043873;   
 }
 
-
-  
-
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -79,7 +75,6 @@ header .buttons{
 }
 
 
-
 header .title-container{
     padding: 140px 0;
     color: #FFFFFF;
@@ -87,7 +82,7 @@ header .title-container{
 
 }
 
-header .title-container .title{
+header .title-container .title {
     width: 656px;
     height: auto;
     flex: 5;
@@ -104,11 +99,72 @@ header .title-container .aside-image {
     flex: 7;
     display: flex;
     justify-content: flex-end;
-    
+}
+
+header .title-container h1 {
+    font-size: 3em;
+}
+
+header .title-container p {
+    font-size: .857em;
+    line-height: 1.5em;
+}
+
+header .title-container .title-bttn{
+    margin-top: 1.357em;
+}
+
+section{
+    background-color: #FFFFFF;
 }
 
 
+section .Project-flex , section .together-flex{
+    display: flex;
+    align-items: center;
+    width: 1480px;
+}
+
+section .Project-flex .project{
+    flex: 6;
+}
+
+section .work-image img{
+    width: 748px;
+    height: 547px;
+    flex: 6;
+    display: flex;
+    justify-content: flex-end;
+}
+
+section .Project-flex .project .get-start{
+    margin: initial;
+} 
+
+section .Project-flex .project h1{
+    max-width: 100px;
+    font-size: 3em;
+    text-transform: capitalize;
+}
+
+section .Project-flex .project p{
+    font-size: .857em;
+}
 
 
+section .together-image img{
+    width: 710px;
+    height: 661px;
+    flex: 6;
+    display: flex;
+    justify-content: flex-start;
+}
 
+section .together-flex .together{
+    flex: 6;
 
+}
+
+section .together-flex .together .try-now{
+    margin: initial;
+} 
