@@ -377,6 +377,42 @@ margin: 60px 0 ;
  font-size: 3.5em;
 }
 .our-sponsors .sponsors img{
-  /* width: 1482px; */
-  /* height: 71px; */
+  max-width: 100%;
+}
+.favorite-container{
+background-color: var(--primary);
+color: #FFFFFF;
+}
+
+.favorite-container .yourfavorite{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 150px;
+}
+.favorite-container .yourfavorite .appps-image{
+    width: 500px;
+    height: auto;
+    flex: 6;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.favorite-container .yourfavorite .title-favorite {
+    max-width: 45%;
+    
+}
+
+.favorite-container .yourfavorite h3{
+    font-size: 3em;
+    margin: 0;
+}
+.favorite-container .yourfavorite p{
+    font-size: .8em;
+
+}
+
+.favorite-container .yourfavorite button{
+    margin: initial;
+    margin-top: 20px;
 }
