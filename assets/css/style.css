@@ -435,7 +435,7 @@ color: #FFFFFF;
     max-width: 400px;
     height: auto;
     padding: 40px;
-    background-color: #FFE492;
+    background-color: #DDF2EB;
     border-radius: 10px;
 
 }
@@ -474,9 +474,90 @@ color: #FFFFFF;
     font-size: .7em;
 }
 .client-container .client .person.group{
-    background-color: var(--primary);
+    background-color: #4F9CF9;
     color: #FFFFFF;
 }
 .client-container .client  .slider{
 text-align: center;
+}
+footer{
+    margin-top: 140px;
+    background-color: var(--primary);
+    color: #FFFFFF;
+}
+/* footer .footer-container{
+    padding: 140px 220px;
+} */
+footer .footer-container .footer-title{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+footer .footer-container .footer-title h3{
+font-size: 3em;
+margin: 0;
+}
+footer .footer-container .footer-title  p:first-of-type{
+    text-align: center;
+    font-size: 1em;
+    line-height: 1em;
+}
+footer .footer-container .footer-title span{
+    display: block;
+    text-align: center;
+}
+footer .footer-container .footer-title button + p{
+    padding: 14px 0;
+    font-size: 1em;
+}
+
+footer .footer-container .footer-title img{
+ width: 150px;
+}
+footer .footer-container button{
+    margin: initial;
+
+}
+footer .footer-container .footer-title .try-free{
+    padding: initial;
+padding: 12px 24px;
+}
+footer .main-footer{
+    margin-top: 100px;
+    display: flex;
+align-items: baseline;
+gap: 100px;
+}
+footer .main-footer .section-footer .logo-white img{
+    width: 110px;
+}
+footer .main-footer .section-footer .logo-white p{
+    max-width: 179px;
+    font-size: .8em;
+    line-height: 2em;
+}
+footer .footer-container .main-footer .produit h3{
+    margin: initial;
+    margin-bottom: .7em;
+}
+
+footer .footer-container .main-footer .produit span{
+    display: block;
+    padding: 3px 0;
+    font-size: .7em;
+}
+footer .footer-container  .main-footer .produit  span.over{
+ color: #FFE492;
+}
+footer .footer-container  .main-footer .try-today{
+    background-color: #FFE492;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+footer .footer-container  .main-footer .produit .Start{
+    padding: initial;
+    padding: 12px 24px;
 }
