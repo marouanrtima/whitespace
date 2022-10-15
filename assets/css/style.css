@@ -416,3 +416,67 @@ color: #FFFFFF;
     margin: initial;
     margin-top: 20px;
 }
+.client-container{
+    margin-top: 100px;
+    background-color: #FFFFFF;
+    
+}
+.client-container .client{
+    width: 100%;
+    height: auto;
+}
+.client-container .client  .important-person{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.client-container .client .person {
+    max-width: 400px;
+    height: auto;
+    padding: 40px;
+    background-color: #FFE492;
+    border-radius: 10px;
+
+}
+
+.client-container .client  h3{
+    font-size: 3em;
+    text-align: center;
+}
+
+.client-container .client .person .quote img{
+    margin-bottom: 12px;
+    width: 60px;
+    height: auto;
+}
+.client-container .client .person .quote p{
+    font-size: .8em;
+    line-height: 1.5em;
+}
+.client-container .client .person span{
+    display: block;
+    padding-top: 40px;
+    border-bottom: 1px solid #000;
+}
+.avatar-container{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.avatar-container .description{
+    margin-left: 42px;
+}
+.avatar-container .description h2{
+    font-size: 1.1em;
+}
+.avatar-container .description p{
+    font-size: .7em;
+}
+.client-container .client .person.group{
+    background-color: var(--primary);
+    color: #FFFFFF;
+}
+.client-container .client  .slider{
+text-align: center;
+}
