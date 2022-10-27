@@ -11,6 +11,10 @@ body {
     font-family: 'DM Sans', sans-serif;
 }
 
+button {
+    font-family: inherit;
+}
+
 .container {
     max-width: 1200px;
     height: 100%;
@@ -61,61 +65,61 @@ header .buttons{
     color: var(--primary);
 }
 
+.bttn .login , .bttn.try{
+    margin-left: 14px;
+}
 .bttn{
     padding: 16px 40px;
     border-radius: 6px;
     border: none;
-    margin-left: 14px;
-    line-height: 24px;
     background-color: #4F9CF9;
     color: #FFFFFF;
     cursor: pointer;
 }
+header ~  .main-content{
+    background-color: var(--primary);
+    background-image: url("../images/wav.png");
+    background-repeat: no-repeat;
+}
 
-
-header .title-container{
+ .main-content .title-container{
     padding: 140px 0;
     color: #FFFFFF;
     display: flex;
-
+    align-items: center;
 }
 
-header .title-container .title {
+.main-content .title-container .title {
     flex: 5;
+    width: 100%;
 }
 
-header .title-container .title-bttn{
-    margin: initial;
-}
-
-
-header .title-container .aside-image img {
-    width: 35.5em;
-    height: auto;
-    flex: 7;
+.main-content .title-container .aside-image  {
     display: flex;
     justify-content: flex-end;
+    flex: 7;
 }
 
-header .title-container h1 {
-    max-width: 70%;
+.main-content .title-container h1 {
     font-size: 2.88em;
 }
 
-header .title-container p {
-    max-width: 80%;
+.main-content .title-container p {
     font-size: .857em;
     line-height: 1.5em;
 }
 
-header .title-container .title-bttn{
-    margin-top: 1.357em;
+.main-content  button.bttn.title-bttn{
+    margin-top: 30px;
+    flex: 2;
 }
 
-section{
-    margin-top: 60px;
-    background-color: #FFFFFF;
+.main-content .aside-image img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
 }
+
 section .Project-flex {
     display: flex;
     align-items: center;
@@ -133,7 +137,6 @@ section .work-image img{
     justify-content: flex-end;
 }
 section .Project-flex .project .get-start{
-    margin: initial;
     margin-top: 1.5em;
     padding: 10px 40px;
 } 
@@ -172,7 +175,6 @@ section .together p{
     line-height: 1.8em;
 }
 section .together-flex .together .try-now{
-    margin: initial;
     margin-top: 12px;
     padding: 10px 40px;
 } 
@@ -201,7 +203,6 @@ section .together-flex .together .try-now{
     height: auto;
 }
 .big-container .go{
-    margin: initial;
     padding: 18px 40px;
 }
 
@@ -232,7 +233,6 @@ section .together-flex .together .try-now{
   font-size: .86em;  
 }
 .custom-container .custom-parent .title-blog .blogin{
-    margin: initial;
     padding: 18px 40px;
 }
 .plan-container{
@@ -302,6 +302,7 @@ margin: 60px 0 ;
     height: 540px;
     padding: 60px 44px;
 }
+
 .plan .paiment .Personal p:nth-child(1){
     font-size: 1.5em;
 }
@@ -319,9 +320,7 @@ margin: 60px 0 ;
 .plan .paiment .Personal p:nth-child(8){
     font-size: 1em;
 }
-.plan .paiment .Personal .button{
-    margin: initial;
-}
+
 .your-work{
     background-color: var(--primary);
 }
