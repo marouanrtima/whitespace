@@ -41,7 +41,7 @@ header .navbar{
     flex: 6;
 }
 
-.navbar nav ul {
+ header .navbar nav ul {
     list-style: none;
     display: flex;
 
@@ -117,67 +117,50 @@ header ~  .main-content{
 .main-content .aside-image img{
     width: 100%;
     height: auto;
-    max-width: 100%;
 }
-
-section .Project-flex {
-    display: flex;
-    align-items: center;
-    width: 92.5em;
-    height: auto;
-}
-section .Project-flex .project{
-    flex: 6;
-}
-section .work-image img{
-    width: 37.5em;
-    height: auto;
-    flex: 6;
-    display: flex;
-    justify-content: flex-end;
-}
-section .Project-flex .project .get-start{
-    margin-top: 1.5em;
-    padding: 10px 40px;
+.main-project .section-container{
+display: flex;
+align-items: center;
 } 
-section .Project-flex .project h1{
+.main-project .section-container .project{
+    flex: 6;
+    
+}
+.main-project .section-container .project h1{
+    font-size: 2.88em;
     max-width: 100px;
-    font-size: 3.5em;
-    font-weight: 700;
-    text-transform: capitalize;
-    text-align: center;
 }
-section .Project-flex .project p{
-    max-width: 38.06em;
-    font-size: .857em;
+.main-project .section-container .project p{
+    font-size: .83em;
+    line-height: 1.5em;
+
 }
-section .together-flex{
-    margin-top: 40px;
+.main-project .section-container .work-image{
+flex: 6;
+}
+.main-project .section-container .work-image img{
+   min-width: 700px;
+    height: 500px;
+}
+.main-work .together-flex {
     display: flex;
     align-items: center;
-    align-content: flex-start;
-    gap: 10px 204px;
 }
-section .together-image img{
-    max-width: 30.5em;
-    height: auto;
+
+.main-work .together-flex .together-image {
+    flex: 6;
+    background-color: rebeccapurple;
+}
+
+.main-work .together-flex .together-image img{
+    min-width: 700px;
+    height: 500px;
+    width: 100%;
+}
+.main-work .together-flex .together{
     flex: 6;
 }
 
-section .together h1{
-    font-size: 3em;
-    font-weight: 700;
-    margin: 0;
-}
-
-section .together p{
-    font-size: .75em;
-    line-height: 1.8em;
-}
-section .together-flex .together .try-now{
-    margin-top: 12px;
-    padding: 10px 40px;
-} 
 .big-container{
     background-color: var(--primary);
     color: #FFFFFF;
@@ -478,6 +461,20 @@ color: #FFFFFF;
 }
 .client-container .client  .slider{
 text-align: center;
+}
+.client-container .client .sliders{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.client-container .client .sliders .circle{
+    background-color: #4f9cf9;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.client-container .client .sliders .circle.my{
+    background-color: var(--primary);
 }
 footer{
     margin-top: 140px;
