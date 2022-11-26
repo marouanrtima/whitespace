@@ -55,9 +55,16 @@ header .buttons{
 
 .navbar nav ul li{
     color: #FFFFFF;
-   padding: 10px;
-   margin-left: 20px;
-   cursor: pointer;
+    padding: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.navbar nav ul li span{
+    width: 30px;
+    height: 24px;
 }
 
 .container .buttons .login{
