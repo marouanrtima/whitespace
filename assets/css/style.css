@@ -119,6 +119,13 @@ header ~  .main-content{
 .main-content  button.bttn.title-bttn{
     margin-top: 30px;
     flex: 2;
+    display: flex;
+    align-items: center;
+    gap: 6px
+}
+.main-content .title-container .title span{
+    width: 16px;
+    height: 16px;
 }
 
 .main-content .aside-image img{
@@ -132,19 +139,29 @@ section[class=main-project]{
 .main-project .section-container{
 display: flex;
 align-items: center;
+gap: 6px;
 } 
 .main-project .section-container .project{
     flex: 6;
     width: 740px;
 }
-/* .main-project .section-container .project h1{
-    font-size: 2.88em;
-    max-width: 100px;
+.main-project .section-container .project h1{
+    font-size: 60px;
+ 
 }
 .main-project .section-container .project p{
-    font-size: .83em;
-    line-height: 1.5em;
-} */
+    opacity: .8;
+}
+.main-project .section-container .project .get-start{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.main-project .section-container .project .get-start span{
+    width: 16px;
+    height: 16px;
+}
+
 .main-project .section-container .work-image{
     display: flex;
     justify-content: flex-end;
@@ -171,29 +188,32 @@ section[class=main-work]{
     flex: 6;
 }
 .main-work .together-flex .together-image img{
- width: 100%;
- height: auto;
+width: 100%;
+height: auto;
 }
 .main-work .together-flex .together{
     width: 740px;
     flex: 6;
 }
 .main-work .together-flex .together h1{
-    text-align: center;
-    font-size: 72px;
+    font-size: 66px;
+    flex: 5;
+}
+.main-work .together-flex .together p{
+    text-shadow: 1px 3px 13px white;
+    flex: 6;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.main-work .together-flex .together button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 2;
+}
+.main-work .together-flex .together button span{
+    width: 16px;
+    height: 16px;
+}
 
 
 
@@ -203,18 +223,28 @@ section[class=main-work]{
     background-color: var(--primary);
     color: #FFFFFF;
 }
+
 .big-container .section{
     margin-top: 60px;
     display: flex;
     align-items: center;
     padding: 15px 0;
 }
-.big-container .section h1{
+/* .big-container .section h1{
     font-size: 3em;
 }
 .big-container .section p{
  font-size: .8em;
  line-height: 1.5em;
+} */
+.big-container .section button.go{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.big-container .section button span{
+    width: 16px;
+    height: 16px;
 }
 .big-container img{
     display: flex;
