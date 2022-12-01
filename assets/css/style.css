@@ -89,7 +89,7 @@ header ~  .main-content{
     background-repeat: no-repeat;
 }
 
- .main-content .title-container{
+.main-content .title-container{
     padding: 140px 0;
     color: #FFFFFF;
     display: flex;
@@ -125,48 +125,79 @@ header ~  .main-content{
     width: 100%;
     height: auto;
 }
+section[class=main-project]{
+    margin-top: 50px;
+    background-color: var(--primary);
+}
 .main-project .section-container{
 display: flex;
 align-items: center;
 } 
 .main-project .section-container .project{
     flex: 6;
-    
+    width: 740px;
 }
-.main-project .section-container .project h1{
+/* .main-project .section-container .project h1{
     font-size: 2.88em;
     max-width: 100px;
 }
 .main-project .section-container .project p{
     font-size: .83em;
     line-height: 1.5em;
-
-}
+} */
 .main-project .section-container .work-image{
-flex: 6;
+    display: flex;
+    justify-content: flex-end;
+    flex: 6;
 }
 .main-project .section-container .work-image img{
-   min-width: 700px;
-    height: 500px;
-}
-.main-work .together-flex {
-    display: flex;
-    align-items: center;
-}
-
-.main-work .together-flex .together-image {
-    flex: 6;
-    background-color: rebeccapurple;
-}
-
-.main-work .together-flex .together-image img{
-    min-width: 700px;
-    height: 500px;
+    height: auto;
     width: 100%;
 }
-.main-work .together-flex .together{
+
+section[class=main-work]{
+    background-color: #3E92CC;
+    margin-top: 50px;
+}
+
+.main-work .together-flex{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.main-work .together-flex .together-image{
+    display: flex;
+    justify-content: flex-start;
     flex: 6;
 }
+.main-work .together-flex .together-image img{
+ width: 100%;
+ height: auto;
+}
+.main-work .together-flex .together{
+    width: 740px;
+    flex: 6;
+}
+.main-work .together-flex .together h1{
+    text-align: center;
+    font-size: 72px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .big-container{
     background-color: var(--primary);
