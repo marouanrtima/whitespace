@@ -71,7 +71,6 @@ header .buttons{
 .container .buttons .login{
     background-color: #FFE492;
     color: var(--primary);
-   
 }
 
 .bttn .login , .bttn.try{
@@ -94,6 +93,7 @@ header .buttons{
     color: #FFFFFF;
     cursor: pointer;
     font-size: 18px;
+    line-height: 23px;
 }
 header ~  .main-content{
     background-color: var(--primary);
@@ -109,15 +109,18 @@ header ~  .main-content{
     align-items: center;
 }
 
-.main-content .title-container .title {
+.main-content .title-container .title{
     flex: 5;
-    width: 100%;
+    width: 656px;
+    height: 361px;
 }
 
 .main-content .title-container .aside-image  {
     display: flex;
     justify-content: flex-end;
     flex: 7;
+    width: 824px;
+    height: 549px;
 }
 
 .main-content .title-container h1 {
@@ -146,30 +149,36 @@ header ~  .main-content{
     width: 100%;
     height: auto;
 }
+
+
 section[class=main-project]{
     margin-top: 50px;
-    background-color: var(--primary);
 }
 .main-project .section-container{
 display: flex;
 align-items: center;
-gap: 6px;
+gap: 60px;
 } 
 .main-project .section-container .project{
-    flex: 6;
-    width: 740px;
+    flex: 5;
+    width: 672px;
+    height: 383px;
 }
 .main-project .section-container .project h1{
-    font-size: 60px;
- 
+    font-size: 72px;
+    letter-spacing: -2px;
+    margin: 0;
 }
 .main-project .section-container .project p{
-    opacity: .8;
+    font-size: 18px;
+    line-height: 30px;
 }
 .main-project .section-container .project .get-start{
     display: flex;
     align-items: center;
     gap: 8px;
+    padding: 20px 40px;
+    font-size: 18px;
 }
 .main-project .section-container .project .get-start span{
     width: 16px;
@@ -180,15 +189,18 @@ gap: 6px;
     display: flex;
     justify-content: flex-end;
     flex: 6;
+    width: 748px;
+    height: 547px;
 }
 .main-project .section-container .work-image img{
     height: auto;
     width: 100%;
+    height: 100%;
 }
 
+
 section[class=main-work]{
-    background-color: #3E92CC;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .main-work .together-flex{
@@ -200,22 +212,24 @@ section[class=main-work]{
     display: flex;
     justify-content: flex-start;
     flex: 6;
+    width: 710px;
+    height: 661px;
 }
 .main-work .together-flex .together-image img{
 width: 100%;
-height: auto;
+height: 100%;
 }
 .main-work .together-flex .together{
     width: 740px;
     flex: 6;
 }
 .main-work .together-flex .together h1{
-    font-size: 66px;
-    flex: 5;
+    font-size: 72px;
+    letter-spacing: -2px;
 }
 .main-work .together-flex .together p{
-    text-shadow: 1px 3px 13px white;
-    flex: 6;
+    font-size: 18px;
+    line-height: 30px;
 }
 
 .main-work .together-flex .together button{
@@ -223,53 +237,63 @@ height: auto;
     align-items: center;
     gap: 10px;
     flex: 2;
+    padding: 20px 40px;
 }
 .main-work .together-flex .together button span{
     width: 16px;
     height: 16px;
 }
 
-section.custom-container {
-    background: #607196;
-}
-
 .big-container{
     background-color: var(--primary);
     color: #FFFFFF;
+    margin-top: 140px;
 }
 
 .big-container .section{
-    margin-top: 60px;
     display: flex;
     align-items: center;
-    padding: 15px 0;
+    padding: 140px 0;
 }
-/* .big-container .section h1{
-    font-size: 3em;
+.big-container .section .extension{
+  flex: 6;
+  width: 697px;
 }
-.big-container .section p{
- font-size: .8em;
- line-height: 1.5em;
-} */
-.big-container .section button.go{
+.big-container .section .extension h1{
+    font-size: 72px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    margin: 0;
+}
+.big-container .section .extension p{
+ font-size: 18px;
+ line-height: 30px;
+}
+.big-container .section .extension button.go{
     display: flex;
     align-items: center;
     gap: 8px;
+    margin-top: 60px;
 }
-.big-container .section button span{
+.big-container .section .extension button span{
     width: 16px;
     height: 16px;
-}
-.big-container img{
+} 
+.big-container .section .image{
+    width: 686px;
+    height: 479px;
     display: flex;
     justify-content: flex-end;
     flex: 6;
-    width: 686px;
-    height: auto;
+}
+.big-container section .image img{
+    width: 100%;
+    height: 100%;
 }
 .big-container .go{
-    padding: 18px 40px;
+    padding: 20px 40px;
 }
+
 
 .custom-container{
     background-color: #FFFFFF;
@@ -280,25 +304,37 @@ section.custom-container {
     align-items: center;
     gap: 98px;
 }
-.custom-container .custom-parent img{
-    width: 600px;
-    height: auto;
-    flex: 6;
+.custom-container .custom-parent .blog-image{
     display: flex;
     justify-content: flex-start;
+    flex: 6;
+    width: 714px;
+    height: 532.09px;
+}
+.custom-container .custom-parent .blog-image img{
+    width: 100%;
+    height: 100%;
 }
 .custom-container .custom-parent .title-blog{
     flex: 6;
 } 
 .custom-container .custom-parent .title-blog h2{
-    max-width: 77%;
-    font-size: 3em;
+    font-size: 72px;
+    letter-spacing: -2px;
+    margin: 0;
 }
 .custom-container .custom-parent .title-blog p{
-  font-size: .86em;  
+  font-size: 18px;
+  line-height: 30px;
+
 }
 .custom-container .custom-parent .title-blog .blogin{
-    padding: 18px 40px;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+}
+.custom-container .custom-parent .title-blog .blogin span{
+    margin-left: 10px;
 }
 .plan-container{
     margin-top: 140px;
