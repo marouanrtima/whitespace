@@ -336,22 +336,24 @@ height: 100%;
 .custom-container .custom-parent .title-blog .blogin span{
     margin-left: 10px;
 }
-.plan-container{
+.Choose-plan{
     margin-top: 140px;
 }
 
-.plan-container .plan .paiment{
-margin: 60px 0 ;
-}
-.plan-container .title-plan h3{
-    font-size: 3em;
+.Choose-plan .your-plan .title-plan h3{
+    font-size: 54px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    margin: 0;
     text-align: center;
 }
-.plan-container .title-plan p{
+.Choose-plan .your-plan .title-plan p{
     text-align: center;
-    font-size: 1.2em;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 24px;
 }
-.plan-container span{
+.Choose-plan .your-plan span{
     display: block;
     text-align: center;
 }
