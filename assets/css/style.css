@@ -336,117 +336,173 @@ height: 100%;
 .custom-container .custom-parent .title-blog .blogin span{
     margin-left: 10px;
 }
-.Choose-plan{
-    margin-top: 140px;
+.plan-container{
+    margin: 140px 0;
 }
 
-.Choose-plan .your-plan .title-plan h3{
+.plan-container .your-plan .title-plan h3{
     font-size: 54px;
     font-weight: bold;
     letter-spacing: -2px;
     margin: 0;
     text-align: center;
 }
-.Choose-plan .your-plan .title-plan p{
+.plan-container .your-plan .title-plan p{
     text-align: center;
     font-size: 18px;
     line-height: 30px;
     margin-top: 24px;
 }
-.Choose-plan .your-plan span{
+.plan-container .your-plan span{
     display: block;
     text-align: center;
 }
-.plan .paiment{
+
+.plan-container  .paiment.container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
 }
-.plan .paiment .free{
+.plan-container  .paiment .free{   
+    width: 472.33px;
+    height: 634px;
+    flex: 4;
     border: 1px solid #FFE492;
     border-radius: 10px;
-    padding: 0 44px;
-    max-width: 301px;
-    height: 500px;
-    margin: 40px 0;
     padding: 40px 44px;
 }
-.plan .paiment .free p{
-}
-.plan .paiment p:first-of-type{
+.plan-container  .paiment .free p:first-child{
+    font-size: 24px;
+    line-height: 36px;
     text-transform: capitalize;
-    font-size: 1.5em;
+    font-weight: 600;
+    margin: 25px 0;
 }
-.plan .paiment p:nth-child(2){
-    font-size: 2em;
+.plan-container  .paiment .free h4{
+font-size: 36px;
+font-weight: bold;
+letter-spacing: -2px;
+margin: 25px 0;
+
 }
-.plan .paiment p:nth-child(3){
-    font-size: 1.1em;
+.plan-container  .paiment .free h4 + p{
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    margin: 25px 0;
 }
-.plan .paiment p:nth-child(4),
-.plan .paiment p:nth-child(5),
-.plan .paiment p:nth-child(6),
-.plan .paiment p:nth-child(7),
-.plan .paiment p:nth-child(8){
-    font-size: .8em;
+.plan-container  .paiment .free p.bullet-point{
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    margin: 28px 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.plan-container  .paiment .free p.bullet-point span{
+    width: 21px;
+    height: 21px;
 }
 
+.plan-container  .paiment .personal{
+    width: 472.33px;
+    height: 761px;
+    flex: 4;
+    background-color: var(--primary);
+    border-radius: 10px;
+    padding: 80px 44px;
+    color: #FFFFFF;
+}
+.plan-container  .paiment .personal P:first-child{
+font-size: 24px;
+line-height: 36px;
+margin: 25px 0;
+}
+.plan-container  .paiment .personal h4{
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    color: #FFE492;
+    margin: 25px 0;
+}
+.plan-container  .paiment .personal h4 + p{
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    margin: 25px 0;
+
+}
+.plan-container  .paiment .personal p.bullet{
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    margin-top: 28px;
+
+}
+.plan-container .paiment .personal p.bullet span{
+    width: 21px;
+    height: 21px;
+}
+.plan-container .paiment .personal  button{
+    margin: 25px 0;
+}
+.plan-container  .paiment .organization{
+    width: 472.33px;
+    height: 634px;
+    flex: 4;
+    border: 1px solid #FFE492;
+} 
 .paiment .free button {
     background-color: transparent;
     outline: none;
     border: 1px solid #FFE492;
-    padding: 16px 44px;
-    border-radius: 5px;
-}
-.plan .paiment .Personal{
-    background-color: var(--primary);
-    border-radius: 10px;
-    padding: 0px 44px; 
-    max-width: 270px;
-    height: 540px;
-    padding: 60px 44px;
-}
-
-.plan .paiment .Personal p:nth-child(1){
-    font-size: 1.5em;
-}
-.plan .paiment .Personal p:nth-child(2){
-    color: #FFE492;
-    font-size: 2.5em;
-}
-.plan .paiment .Personal p:nth-child(3){
-    font-size: 1.1em;
-}
-.plan .paiment .Personal p:nth-child(4),
-.plan .paiment .Personal  p:nth-child(5),
-.plan .paiment .Personal p:nth-child(6),
-.plan .paiment .Personal p:nth-child(7),
-.plan .paiment .Personal p:nth-child(8){
-    font-size: 1em;
+    padding: 16px 40px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    margin-top: 25px;
 }
 
 .your-work{
     background-color: var(--primary);
+    background-image: url(../images/background.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 680.74px 691.34px;
+    color: #FFFFFF;
+    padding: 140px 220px;
+    
 }
 .your-work .work{
-    padding: 100px 0;
-    color: #FFFFFF;
+    width: 1064px;
+    height: auto;
 }
-.your-work .work h3{
-    font-size: 3em;
+.your-work .work h1{
+    text-align: center;
+    font-size: 72px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    margin: 24px 0;
 }
 .your-work .work p{
-    font-size: .9em;
-    line-height: 1.5em;
-}
-.your-work .work h3,
-.your-work .work p,
-.your-work .work p span{
     text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
 }
 .your-work .work .button-container{
-    text-align: center;
-    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
 }
+
+
 .data-container .data{
     display: flex;
     align-items: center;
