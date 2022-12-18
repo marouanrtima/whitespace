@@ -629,73 +629,86 @@ background-size: 100% auto;
 }
 
 .client-container{
-    margin-top: 100px;
     background-color: #FFFFFF;
-    
+    padding: 140px 220px;
 }
-.client-container .client{
-    width: 100%;
-    height: auto;
-}
-.client-container .client  .important-person{
+.client-container .important-person {
     display: flex;
     align-items: center;
-    gap: 20px;
-    margin-bottom: 40px;
+    gap: 32px;
 }
-.client-container .client .person {
-    max-width: 400px;
-    height: auto;
-    padding: 40px;
-    background-color: #DDF2EB;
-    border-radius: 10px;
-
-}
-
-.client-container .client  h3{
-    font-size: 3em;
+.client-container .client .title-client h1{
+    font-size: 70px;
+    letter-spacing: -2px;
+    line-height: 84px;
     text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+.client-container .client .important-person{
+    margin-top: 60px;
+}
+.client-container .client .important-person .person{
+    width: 471.67px;
+    height: auto;
+    padding: 60px 40px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    flex: 4;
 }
 
-.client-container .client .person .quote img{
-    margin-bottom: 12px;
-    width: 60px;
-    height: auto;
-}
-.client-container .client .person .quote p{
-    font-size: .8em;
-    line-height: 1.5em;
-}
-.client-container .client .person span{
-    display: block;
-    padding-top: 40px;
-    border-bottom: 1px solid #000;
-}
-.avatar-container{
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-}
-.avatar-container .description{
-    margin-left: 42px;
-}
-.avatar-container .description h2{
-    font-size: 1.1em;
-}
-.avatar-container .description p{
-    font-size: .7em;
-}
-.client-container .client .person.group{
+.client-container .client .important-person .person.avatar-two{
     background-color: #4F9CF9;
     color: #FFFFFF;
+    flex: 4;
 }
-.client-container .client  .slider{
-text-align: center;
+.client-container .client .important-person .person.avatar-three{
+    background-color: #4F9CF9;
+    color: #FFFFFF;
+    flex: 4;
 }
+.client-container .client .important-person .person .quote .qt-image{
+    width: 86px;
+    height: 61.46px;
+} 
+.client-container .client .important-person .person .quote p{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    letter-spacing: -1px;
+    margin-top: 32px;
+    font-weight: 300;
+}
+.client-container .client .important-person .person .quote  span{
+    display: block;
+    margin-top: 40px;
+    border-bottom: 1px solid #000;
+}
+.client-container .client .avatar-container{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    margin-top: 60px;
+}
+.client-container .client .avatar-container .description p:first-child{
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+margin: 0;
+}
+.client-container .client .avatar-container .description .parghraph{
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+
 .client-container .client .sliders{
     display: flex;
     justify-content: center;
     gap: 12px;
+    margin-top: 60px;
 }
 .client-container .client .sliders .circle{
     background-color: #4f9cf9;
@@ -703,11 +716,11 @@ text-align: center;
     height: 12px;
     border-radius: 50%;
 }
+
 .client-container .client .sliders .circle.my{
     background-color: var(--primary);
 }
 footer{
-    margin-top: 140px;
     background-color: var(--primary);
     color: #FFFFFF;
 }
