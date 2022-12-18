@@ -476,7 +476,6 @@ margin: 25px 0;
     background-size: 680.74px 691.34px;
     color: #FFFFFF;
     padding: 140px 220px;
-    
 }
 .your-work .work{
     width: 1064px;
@@ -501,79 +500,134 @@ margin: 25px 0;
     align-items: center;
     margin-top: 60px;
 }
-
-
-.data-container .data{
+.your-work .work .button-container button.bttn.taskey{
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 20px;
-    margin-top: 100px ;
+    gap: 10px;
+    padding: 20px 40px;
+    border-radius: 8px;
 }
-.data-container .data h4{
-    font-size: 2.5em;
+.your-work .work .button-container button span{
+    width: 16px;
+    height: 16px;
+}
+.data-container{
+padding: 140px 220px;
+}
+.data-container .data{
+display: flex;
+align-items: center;
+}
+.data-container .data .your-data{
+    width: 800px;
+    height: 324px;
+    flex: 6;
+}
+.data-container .data .your-data h1{
+    font-size: 72px;
+    font-weight: bold;
+    letter-spacing: -2px;
     margin: 0;
 }
-.data-container .data p{
+.data-container .data .your-data p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -1px;
+    margin-top: 24px;
+}
+.data-container .data .your-data button.bttn.read{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 40px;
+    border-radius: 8px;
+}
+.data-container .data .your-data button.bttn.read span{
+    width: 16px;
+    height: 16px;
+}
+.data-container .data .your-data button{
+    margin-top: 60px;
+}
 
-    font-size: .82em;
-    line-height: 1.5em;
-    margin-top: 8px;
-    margin-bottom: 16px;
+.data-container .data .image-data{
+    display: flex;
+    justify-content: flex-end;
+    flex: 6;
+    width: 681px;
+    height: 381.13px;
 }
-.data-container .data .read{
-    margin: initial;
+.data-container .data .image-data img{
+    width: 100%;
+    height: 100%;
 }
-.data-container .data img{
-    width: 590px;
-    height: 280x;
+.our-sponsors .sponsors{
+    padding: 140px 220px;
+} 
+.our-sponsors .sponsors .sponsor h1{
+    font-size: 72px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    text-align: center;
 }
-.our-sponsors{
-    margin: 100px;
+.our-sponsors .sponsors .image-sp{
+    width: 1482px;
+    height: 71px;
+    margin-top: 140px;
 }
-.our-sponsors .sponsors h5{
- text-align: center;
- font-size: 3.5em;
-}
-.our-sponsors .sponsors img{
-  max-width: 100%;
+.our-sponsors .sponsors .image-sp img{
+    width: 100%;
+    height: 100%;
+    overflow-clip-margin: initial;
+    overflow: initial;
 }
 .favorite-container{
 background-color: var(--primary);
 color: #FFFFFF;
+padding: 140px 220px;
+background-color: var(--primary);
+background-image: url(../images/wav.png);
+background-repeat: no-repeat;
+background-size: 100% auto;
 }
-
 .favorite-container .yourfavorite{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 80px 150px;
+    justify-content: center;
+    gap: 100px;
 }
 .favorite-container .yourfavorite .appps-image{
-    width: 500px;
-    height: auto;
-    flex: 6;
     display: flex;
     justify-content: flex-start;
+    flex: 5;
+    width: 582px;
+    height: 470.8px;
+}
+.favorite-container .yourfavorite .appps-image img{
+    width: 100%;
+    height: 100%;
+}
+.favorite-container .yourfavorite .title-favorite{
+    width: 798px;
+    height: 468px;
+    flex: 7;
+}
+.favorite-container .yourfavorite .title-favorite h1{
+    font-size: 72px;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+.favorite-container .yourfavorite .title-favorite p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -1px;
+    margin-top: 24px;
 }
 
-.favorite-container .yourfavorite .title-favorite {
-    max-width: 45%;
-    
-}
-
-.favorite-container .yourfavorite h3{
-    font-size: 3em;
-    margin: 0;
-}
-.favorite-container .yourfavorite p{
-    font-size: .8em;
-
-}
-
-.favorite-container .yourfavorite button{
-    margin: initial;
-    margin-top: 20px;
-}
 .client-container{
     margin-top: 100px;
     background-color: #FFFFFF;
