@@ -845,180 +845,199 @@ section.free-trial .headind .taskey {
     justify-content: center;
     margin-top: 40px;
 }
+
 section.free-trial .headind .taskey button.bttn {
     display: flex;
     align-items: center;
     padding: 20px 40px;
     gap: 10px;
 }
-section.free-trial .headind .taskey button span{
+
+section.free-trial .headind .taskey button span {
     width: 16px;
     height: 16px;
 }
 
-section.free-trial .headind .taskey ~ p{
+section.free-trial .headind .taskey~p {
     text-align: center;
     font-size: 24px;
     line-height: 32px;
-    font-weight: 300; 
+    font-weight: 300;
     margin-top: 40px;
-    
-}
-section.free-trial .headind .contact{
-display: flex;
-justify-content: center;
-margin-top: 40px;
+
 }
 
-
-footer{
-    background-color: var(--primary);
-    color: #FFFFFF;
-}
-footer .footer-container{
-    padding: 140px 220px 32px;
+section.free-trial .headind .contact {
     display: flex;
     justify-content: center;
+    margin-top: 40px;
+}
+
+footer {
+    background-color: var(--primary);
+    color: #FFFFFF;
+    padding: 140px 220px 32px;
+}
+
+footer .footer-container {
+    display: flex;
+    justify-content: space-around;
+    justify-items: stretch;
     align-items: center;
     gap: 100px;
+    height: auto;
 }
-footer .footer-container .logo{
-    width: 205.25px;
-    height: 169px;
+
+footer .footer-container .logo {
     flex: 3;
+    width: 205px;
+    height: auto;
 }
 
-
-/* footer .footer-container {
-    padding-top: 100px;
-    padding-bottom: 20px;
+footer .footer-container .logo p {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-top: 15px;
 }
 
-footer .footer-container .footer-title {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+footer .footer-container .info {
+    flex: 2;
+    width: 205px;
+    height: auto;
 }
 
-footer .footer-container .footer-title h3 {
-    font-size: 3em;
+footer .footer-container .info p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+    margin-top: 16px;
+    letter-spacing: -1px;
+}
+
+footer .footer-container .info p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+footer .footer-container .info p.Overview {
+    font-size: 16px;
+    color: #FFE492;
+    line-height: 20px;
+    letter-spacing: -1px;
+    font-weight: 300;
+}
+
+footer .footer-container .Blog {
+    flex: 2;
+    width: 205px;
+    height: auto;
+}
+
+footer .footer-container .Blog p:first-child {
+    font-size: 18px;
+    line-height: auto;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+footer .footer-container .Blog p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+    margin-top: 16px;
+    letter-spacing: -1px;
+}
+
+footer .footer-container .About {
+    flex: 2;
+    width: 205px;
+    height: auto;
+}
+
+footer .footer-container .About p:first-child {
+    font-size: 18px;
+    line-height: auto;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin-top: 0;
+}
+
+footer .footer-container .About p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+    margin-top: 16px;
+    letter-spacing: -1px;
+}
+
+footer .footer-container .start {
+    flex: 3;
+    width: 259px;
+    height: auto;
+}
+
+footer .footer-container .start h5 {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 36px;
+    letter-spacing: -1px;
     margin: 0;
 }
 
-footer .footer-container .footer-title p:first-of-type {
-    text-align: center;
-    font-size: 1em;
-    line-height: 1em;
+footer .footer-container .start p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: -1px;
+    margin-top: 23px;
 }
 
-footer .footer-container .footer-title span {
-    display: block;
-    text-align: center;
+footer .footer-container .start button.str {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 23px;
 }
 
-footer .footer-container .footer-title button+p {
-    padding: 14px 0;
-    font-size: 1em;
+footer .footer-container .start button span {
+    width: 16px;
+    height: 16px;
 }
 
-footer .footer-container .footer-title img {
-    width: 150px;
-}
-
-footer .footer-container button {
-    margin: initial;
-
-}
-
-footer .footer-container .footer-title .try-free {
-    padding: initial;
-    padding: 12px 24px;
-}
-
-footer .main-footer {
+footer .tems-condition {
     margin-top: 100px;
     display: flex;
-    align-items: baseline;
-    gap: 116px;
-}
-
-footer .main-footer .section-footer .logo-white img {
-    width: 110px;
-}
-
-footer .main-footer .section-footer .logo-white p {
-    max-width: 179px;
-    font-size: .8em;
-    line-height: 2em;
-}
-
-footer .footer-container .main-footer .produit {
-    flex: 4;
-}
-
-footer .footer-container .main-footer .produit h3 {
-    margin: initial;
-    margin-bottom: .7em;
-}
-
-footer .footer-container .main-footer .produit span {
-    display: block;
-    padding: 4px 0;
-    font-size: .7em;
-    line-height: 1.5em;
-}
-
-footer .footer-container .main-footer .produit span.over {
-    color: #FFE492;
-}
-
-footer .footer-container .main-footer .try-today {
-    flex: 6;
-    padding: 20px 0;
-}
-
-footer .footer-container .main-footer .try-today h3 {
-    font-size: 1.4em;
-}
-
-footer .footer-container .main-footer .try-today p {
-    max-width: 100%;
-    font-size: .78em;
-}
-
-footer .footer-container .main-footer .produit .Start-today {
-    padding: initial;
-    padding: 12px 30px;
-}
-
-.lang-container .lang {
-    display: flex;
     align-items: center;
 }
-
-.lang-container .lang .imag-icon {
+footer .tems-condition .language{
     display: flex;
     align-items: center;
-    gap: 3px;
+    gap: 6px;
+    flex: 1;
 }
-
-.lang-container .lang p {
-    font-size: .7em;
+footer .tems-condition .language .paragh{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -1px;
+    font-weight: 300;
 }
-
-.lang-container .lang .other {
-    display: flex;
-    flex: 3;
-    padding: 0 13px;
+footer .tems-condition .terms{
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        flex: 6;
 }
-
-.lang-container .lang .other p {
-    padding: 0 20px;
+footer .tems-condition .terms p{
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: -1px;
 }
-
-.lang-container .icon-social {
+footer .tems-condition .social {
     display: flex;
     justify-content: flex-end;
-    flex: 1;
-} */
+    flex: 2;
+}
